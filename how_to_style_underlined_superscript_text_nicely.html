@@ -1,0 +1,22 @@
+<!doctype html>
+<!-- I found this on stackoverflow...
+	http://stackoverflow.com/questions/420770/superscript-underline-in-ie
+	credit goes to @epascarello -->
+<html>
+	<head>
+		<meta charset="utf-8"></meta>
+		<title>how to style underlined superscript text nicely</title>
+		<style type="text/css">
+			a.suprUndrln {
+		       text-decoration: none; 
+		       border-bottom: .1em solid blue;
+		   }
+		   sup{
+		   		font-size: .5em;
+		   }
+		</style>
+	</head>
+	<body>
+		In might be tricky to <a href="#link to somewhere on the internet..." class="suprUndrln">style an &#60;a&#62; tag that has some text containing a superscript character like a <sup>&reg;</sup> or a<sup>™</sup> or a<sup>©</sup> and not have ot look like sh<sup>*</sup>t.</a> However, it can be done. View the source code to see how.
+	</body>
+</html>
